@@ -41,14 +41,14 @@ Esse procedimento é necessário logo após a instalação do seu software Git e
 
 **Obs:** Não é necessário um diretório específico para execultar esses comandos.
 
-[Topo](https://github.com/EvertecDigital/guia-pratico-de-git/edit/master/README.md#lista-de-conte%C3%BAdos)
+[Topo](#lista-de-conte%C3%BAdos)
 
 Comando | Descrição
 :---|:---
 `git config --global user.name "<seu nome>"` | Registra _**seu nome**_ nas configurações globais
 `git config --global user.email "<seu email>"`| Registra _**seu email**_ nas configurações globais
 
-[Topo](https://github.com/EvertecDigital/guia-pratico-de-git/edit/master/README.md#lista-de-conte%C3%BAdos)
+[Topo](#lista-de-conte%C3%BAdos)
 
 ## Iniciando um repositório local
 
@@ -59,7 +59,7 @@ Comado | Descrição
 `git init` | Inicia o controle de versionamento no diretório.
 
 
-[Topo](https://github.com/EvertecDigital/guia-pratico-de-git/edit/master/README.md#lista-de-conte%C3%BAdos)
+[Topo](#lista-de-conte%C3%BAdos)
 
 ## Consultas
 
@@ -68,7 +68,7 @@ Comado | Descrição
 :---|:---
 `git status` | Mostra o status dos arquivos do diretório monitorado, em relação a stage area e sugestões de próximas ações.
 
-[Topo](https://github.com/EvertecDigital/guia-pratico-de-git/edit/master/README.md#lista-de-conte%C3%BAdos)
+[Topo](#lista-de-conte%C3%BAdos)
 
 ### Log
 Comado | Descrição
@@ -80,7 +80,7 @@ Comado | Descrição
 `git log --decorate` | Mostra a head, breach e o servidor remote.
 `git log --parents`| Mostra a relação entre os commits.
 
-[Topo](https://github.com/EvertecDigital/guia-pratico-de-git/edit/master/README.md#lista-de-conte%C3%BAdos)
+[Topo](#lista-de-conte%C3%BAdos)
 
 ### Diff
 Comado | Descrição
@@ -92,7 +92,7 @@ Comado | Descrição
 `git diff <hashinicial>..<hashfinal>` | Mostra somente as modificações entre as hashs de commits informadas. Lembrando que hash inicial é a ultima listada no `git log --oneline`
 `git diff hashinicial~x` |  Onde `x` é o númedo desejado. Mostra as modificações a partir da hash inicial e as três anteriores a ela (mostra todas as alterações, incluídos ou não na _stage area_.
 
-[Topo](https://github.com/EvertecDigital/guia-pratico-de-git/edit/master/README.md#lista-de-conte%C3%BAdos)
+[Topo](#lista-de-conte%C3%BAdos)
 
 ### Show
 Comado | Descrição
@@ -102,7 +102,7 @@ Comado | Descrição
 
 **Obs.:** Se houver muitos resultados a serem exibidos, o Git irá mostrar os resultados parcialmente. Bastar teclar _Enter_ para continuar vendo os resultados ou tecle "_q_" para sair da lista de resultados.
 
-[Topo](https://github.com/EvertecDigital/guia-pratico-de-git/edit/master/README.md#lista-de-conte%C3%BAdos)
+[Topo](#lista-de-conte%C3%BAdos)
 
 
 
