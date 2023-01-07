@@ -1,5 +1,7 @@
 # Guia Rápido de Comandos Git
 
+
+
 Um guia rápido de comandos Git para agilizar nas tarefas do dia a dia. Se for útil para você deixa um :star:
 
 
@@ -30,8 +32,10 @@ Um guia rápido de comandos Git para agilizar nas tarefas do dia a dia. Se for �
  
 **Observação:**
  
-Os comandos que possuem variações podem ser combinados. Exemplo: Comando de log
-`git log -n2 --onleline --decorate --parents`
+Os comandos que possuem variações podem ser combinados. 
+
+Exemplo: Comando de log
+`git log -n2 --oneline --decorate --parents`
  
 
 ## Configuração Global
