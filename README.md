@@ -206,6 +206,9 @@ Cria uma cópia do repositório remoto no ambiente local, já incluido a conexã
 
 Comado | Descrição
 :---|:---
+`git clone <remote-repo-url>`| Clona um repositório remoto para o ambiente local.
+`git clone --branch <branchname> <remote-repo-url>` | Clona um repositório através de uma branch _específica_.
+`git clone -b <branchname> <remote-repo-url>`|  Clona um repositório através de uma branch _específica_.
 
 [Topo](#lista-de-conte%C3%BAdos)
 
