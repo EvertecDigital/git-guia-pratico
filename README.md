@@ -90,7 +90,7 @@ Comado | Descrição
 :---|:---
 `git diff` | Mostra as modificações do repositório em relação a _Stage Area_
 `git diff --name-only`| Mostra somente o nome dos arquivos que foram modificados
-`git diff` --staged | Mostra os arquivos que estão na _stage Area_
+`git diff --staged` | Mostra os arquivos que estão na _stage Area_
 `git diff <arquivo.ext> ou <hasdocommit>` | Mostra as modificações de um arquivo específico ou de um determinado commit.
 `git diff <hashinicial>..<hashfinal>` | Mostra somente as modificações entre as hashs de commits informadas. Lembrando que hash inicial é a ultima listada no `git log --oneline`
 `git diff <hashinicial>~<x>` |  Onde `x` é o númedo desejado. Mostra as modificações a partir da hash inicial e as três anteriores a ela (mostra todas as alterações, incluídos ou não na _stage area_.
